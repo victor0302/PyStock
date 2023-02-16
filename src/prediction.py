@@ -1,6 +1,5 @@
 import pandas as pd
 
-from src.alpha_vantage_api import get_stock_data
 from src.data_processing import weekly_df
 from src.news_sentiment import sentiment_df
 from src.machine_learning import model
@@ -21,3 +20,5 @@ merged_weekly_df.fillna(0, inplace=True)
 X_new = merged_weekly_df[['1. open', '2. high', '3. low', '4. close', '6. volume', '10-day MA', 'title_polarity',
                           'description_polarity', 'content_polarity']]
 y_new_pred = model.predict(X_new)
+
+print(y_new_pred)

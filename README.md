@@ -14,6 +14,7 @@ data_processing.py: a Python module containing code to preprocess stock data obt
 data_splitting.py: a Python module containing code to split the preprocessed data into training and testing sets using Scikit-Learn's train_test_split function.
 news_sentiment.py: a Python module containing code to retrieve news articles related to a particular company using the News API and calculate the sentiment of each article using TextBlob.
 machine_learning.py: a Python module containing code to build and evaluate machine learning models using Scikit-Learn.
+prediction.py: a Python module containing code to make predictions using the machine learning model
 ## Future Plans
 In the future, the project aims to build a machine learning model to predict stock prices using the preprocessed data, and to further refine the model by incorporating additional data sources and improving feature selection and engineering. The model will be evaluated using various metrics and tested using out-of-sample data.
 
