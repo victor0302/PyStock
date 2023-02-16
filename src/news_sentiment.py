@@ -70,8 +70,7 @@ weekly_df = pd.merge(weekly_df, sentiment_df, left_index=True, right_index=True,
 
 weekly_df.fillna(0, inplace=True)
 
-# Print the updated DataFrame
-print(weekly_df)
+
 
 
 
