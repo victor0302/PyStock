@@ -1,5 +1,5 @@
 from sklearn.model_selection import train_test_split
-from data_processing import weekly_df
+from src.data_processing import weekly_df
 
 # Set the input features and target variable
 X = weekly_df[['1. open', '2. high', '3. low', '4. close', '6. volume', '10-day MA']]

@@ -1,5 +1,5 @@
 import pandas as pd
-from alpha_vantage_api import get_stock_data
+from src.alpha_vantage_api import get_stock_data
 
 
 

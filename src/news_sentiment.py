@@ -1,7 +1,7 @@
 from newsapi import NewsApiClient
 from textblob import TextBlob
 import pandas as pd
-from data_processing import df, weekly_df
+from src.data_processing import df, weekly_df
 
 # Set up the News API client
 api_key = '5c9b52e985b44b1a8c553d7935f66e8d'
